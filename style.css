@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    height: 0;
+    background: blue;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 450px;
+    height: 700px;
+    background: white;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 300px 30px;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 150;
+    height: 150;
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 70px);
+}
+
+
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 20px;
+}
+.login-btn{
+    border: none;
+    outline: none;
+    height: 60px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    background: gray;
+}
+.create-btn{
+    border: none;
+    outline: none;
+    height: 60px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    background: green; 
+}
+
+a{
+    margin: 100px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-family: blod;
+}
+footer{
+        margin: 20px;
+        padding: 20px;
+        font-size: 18px;
+        text-decoration: none;
+        color: Blue;
+        font-family: sans-serif;
+}
